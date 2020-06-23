@@ -1,0 +1,23 @@
+{
+  "name": "yuhu-web-library",
+  "version": "0.0.1",
+  "description": "yuhu-web-library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "yuhu-maxiang",
+    "email": "maxiang@yuhu.tech"
+  },
+  "repository": "yuhu-tech/yuhu-web-library",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0"
+  },
+  "license": "MIT"
+}
